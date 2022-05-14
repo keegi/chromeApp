@@ -3,12 +3,13 @@ const images = [
     "1.jpeg",
     "2.jpeg",
 ];
+const pageBg = document.querySelector(".content");
 
 const chosenImage = images[Math.floor(Math.random() * images.length)];
 
-const bgImage = document.createElement("img");
+pageBg.style.background = `url(./img/${chosenImage})`;
 
-bgImage.src = `img/${chosenImage}`;
-
-document.body.appendChild(bgImage);
+// const bgImage = document.createElement("img");
+// bgImage.src = `img/${chosenImage}`;
+// document.body.appendChild(bgImage);
 

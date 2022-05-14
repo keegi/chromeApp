@@ -1,3 +1,21 @@
+@charset "utf-8"; 
+@import url(reset.css);
+
+.content {
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#clock {
+  color: #FFFFFF;
+  font-size: 5rem;
+}
+
 .hidden {
   display: none;
 }
