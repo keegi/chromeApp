@@ -25,18 +25,22 @@
     </div>
 
     <div class="content hidden">
-      
-      <!-- 현재 시간 -->
-      <h2 id="clock">00:00:00</h2>
 
-      <!-- 사용자 이름 출력 -->
-      <h1 id="greeting" class="hidden"></h1>
-
-      <!-- todo 리스트 -->
-      <form id="todo-form">
-        <input type="text" placeholder="Write a To Do and Press Enter" required />
-      </form>
-      <ul id="todo-list"></ul>
+      <div class="box">
+        <div class="item lp1">
+          <!-- 사용자 이름 출력 -->
+          <h1 class="greeting-box hidden" id="greeting"></h1>                
+          <!-- 현재 시간 -->
+          <h2 class="clock-box" id="clock">00:00:00</h2>
+        </div>
+        <div class="item lp1">
+          <!-- todo 리스트 -->
+          <form id="todo-form">
+            <input type="text" placeholder="Write a To Do and Press Enter" required />
+          </form>
+          <ul id="todo-list"></ul>
+        </div> 
+      </div>
 
       <!-- 랜덤 명언 -->
       <div class="quote-box" id="quote">

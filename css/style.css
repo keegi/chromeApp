@@ -57,10 +57,29 @@ body {
   background-position: center;
   background-size: cover;
 }
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  width: 50%;
+  height: 100vh;
+}
+.lp1 {
+  padding-top: 200px;
+}
 
-#clock {
+/* 사용자 이름 출력 ====================== */
+.greeting-box {
   color: #FFFFFF;
   font-size: 5rem;
+}
+
+/* 현재 시간 ============================= */
+.clock-box {
+  color: #FFFFFF;
+  font-size: 8rem;
 }
 
 /* 현재 날씨 ============================ */
