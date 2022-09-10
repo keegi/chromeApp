@@ -6,53 +6,53 @@ body {
   background-color: rgba(122, 134, 212, 0.3);
   overflow: hidden;
 }
+.hidden {
+  display: none;
+}
 
 /* login-form ===================================== */
 #login-form {
-  position: absolute;
-  top: calc(50% - 16rem);
-  left: calc(50% - 20rem);
-  width: 40rem;
-  height: 25rem;
+  position: relative;
+  width: 100%;
+  height: 100%;
   text-align: center;
-  border: 1px solid #999999;
-  border-radius: 0.5rem;
-  background-image: url("../img/landscape.jpg");
+  background-image: url("../img/deskback.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 65% center;
+  background-position: center;
 }
-.formbox {
-  position: relative;
-  top: 10rem;
+.form-box {
+  position: absolute;
+  top: calc(50vh - 65px);
+  left: calc(50vw - 200px);
 }
 .inp {
-  width: 300px;
-  height: 50px;
-  padding-left: 10px;
+  width: 400px;
+  height: 60px;
   text-align: center;
-  font-size: 20px;
-  border: 1px solid #999999;
+  font-size: 26px;
+  border: 3px solid #999999;
   border-radius: 5px;
   background-color: #FFFFFF;
 }
 .smt {
-  width: 100px;
-  height: 52px;
-  font-size: 20px;
-  color: #3c3d75;
-  border: 1px solid #999999;
+  width: 406px;
+  height: 66px;
+  font-size: 26px;
+  color: #FFF;
+  border: 3px solid rgb(194, 168, 199);
   border-radius: 5px;
-  background-color: #FFFFFF;
+  background-color: #2f083b;
   cursor: pointer;
 }
 
 
-/* content ===================================== */
+/* content ============================ */
 .content {
   position: relative;
   width: 100%;
   height: 100vh;
+  text-align: center;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -63,6 +63,29 @@ body {
   font-size: 5rem;
 }
 
-.hidden {
-  display: none;
+/* 현재 날씨 ============================ */
+.weather-box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.weather-box > span {
+  color: #FFF;
+  font-size: 20px;
+}
+
+/* 랜덤 명언 ============================ */
+.quote-box {
+  position: absolute;
+  bottom: calc(0vh + 20px);
+  left: calc(50vw - 350px);
+  width: 700px;
+  height: 64px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.4);
+}
+.quote-box > div {
+  font-size: 18px;
+  color: #FFF;
+  padding-top: 3px;
 }

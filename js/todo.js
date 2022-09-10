@@ -3,7 +3,6 @@ const toDoInput = toDoForm.querySelector("#todo-form input")
 const toDoList = document.getElementById("todo-list");
 
 const TODOS_KEY = "todos";
-
 let toDos = [];
 
 function saveToDos()

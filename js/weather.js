@@ -20,6 +20,7 @@ function onGeoError()
     alert('날씨 정보를 찾을수 없습니다.');
 }
 
+
 navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
 
 

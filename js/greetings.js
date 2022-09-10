@@ -22,7 +22,6 @@ function paintGreetings(username) {
 
 //로컬스토리지에 저장된 아이디를 가져온다 
 const savedUsername = localStorage.getItem(USERNAME_KEY);
-
 // 로컬스토리지에 아이디가 없다면 if 를 실행
 if(savedUsername === null) {
   // show the form
