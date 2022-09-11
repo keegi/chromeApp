@@ -67,7 +67,7 @@ body {
   height: 100vh;
 }
 .lp1 {
-  padding-top: 200px;
+  padding-top: 120px;
 }
 
 /* 사용자 이름 출력 ====================== */
@@ -80,6 +80,50 @@ body {
 .clock-box {
   color: #FFFFFF;
   font-size: 8rem;
+}
+
+/* todo 리스트 ========================== */
+.todo-box {
+  display: block;
+  width: 500px;
+  margin:0 auto;
+}
+.todotitle {
+  color: #FFF;
+  font-size: 5rem;
+  font-weight: 700;
+}
+.todo-input {
+  width: 500px;
+  height: 50px;
+  font-size: 20px;
+  padding: 10px 15px;
+  background-color: #FFF;
+  border-radius: 20px;
+}
+#todo-list > li {
+  position: relative;
+  width: 500px;
+  height: 40px;
+  padding: 10px 15px;
+  margin-top: 20px;
+  line-height: 40px;
+  text-align: left;
+  color: #FFF;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 1px solid #FFF;
+  border-radius: 20px;
+}
+#todo-list button {
+  position: absolute;
+  top: 17px;
+  right: 20px;
+  width: 45px;
+  height: 26px;
+  color: #000000;
+  background-color: #efefef;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 /* 현재 날씨 ============================ */
